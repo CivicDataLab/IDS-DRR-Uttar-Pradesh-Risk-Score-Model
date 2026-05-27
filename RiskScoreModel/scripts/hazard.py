@@ -145,7 +145,8 @@ def main():
         'inundation_intensity_mean_nonzero', 
         'inundation_intensity_sum',
         #'drainage_density', 
-        #'mean_rain', 
+        'elevation_mean',
+        'mean_rain', 
         'max_rain'
     ]
     
