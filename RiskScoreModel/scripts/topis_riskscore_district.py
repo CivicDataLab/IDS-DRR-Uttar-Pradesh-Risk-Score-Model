@@ -38,6 +38,7 @@ merged_df.sort_values(by=['object_id', 'financial_year', 'timeperiod'], inplace=
 cumulative_vars = [
     'total_tender_awarded_value', 
     'Repair and Restoration_tenders_awarded_value',
+    'Immediate Measures_tenders_awarded_value',
     'Others_tenders_awarded_value',
 ]
 
@@ -176,7 +177,7 @@ aggregation_rules = {
     #'sdmf-tenders-awarded-value': 'sum', 
     #'wss-tenders-awarded-value': 'sum', 
     #'preparedness-measures-tenders-awarded-value': 'sum', 
-    #'immediate-measures-tenders-awarded-value': 'sum', 
+    'immediate-measures-tenders-awarded-value': 'sum', 
     'others-tenders-awarded-value': 'sum',
     #'relief-and-mitigation-sanction-value': 'sum',
     'sum-population': 'sum',
@@ -223,7 +224,7 @@ rounding_rules = {
     #'ndrf-tenders-awarded-value': 0, 
     #'sdmf-tenders-awarded-value': 0, 
     #'wss-tenders-awarded-value': 0, 
-    #'immediate-measures-tenders-awarded-value': 0, 
+    'immediate-measures-tenders-awarded-value': 0, 
     'others-tenders-awarded-value': 0,
     #'relief-and-mitigation-sanction-value': 0,
     #'net-sown-area-in-hac': 0,

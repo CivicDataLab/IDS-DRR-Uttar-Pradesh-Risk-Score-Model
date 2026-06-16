@@ -25,7 +25,7 @@ government_response_vars = ["total_tender_awarded_value",
                        # 'LWSS_tenders_awarded_value', 'NDRF_tenders_awarded_value', 
                        # 'SDMF_tenders_awarded_value', 'WSS_tenders_awarded_value', 
                        # 'Preparedness Measures_tenders_awarded_value', 
-                       # 'Immediate Measures_tenders_awarded_value', 
+                        'Immediate Measures_tenders_awarded_value', 
                          "Others_tenders_awarded_value",
                        #'relief_and_mitigation_sanction_value'
                       ]
