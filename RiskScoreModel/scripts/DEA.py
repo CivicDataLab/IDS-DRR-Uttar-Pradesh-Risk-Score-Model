@@ -480,7 +480,7 @@ def VRS(DMU, X, Y, orientation, dual):
             	print ('GurobiError reported')
             
             # Print efficiency
-            print (E[r]) 
+            print(E[r]) 
         
 
     
